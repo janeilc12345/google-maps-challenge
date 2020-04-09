@@ -78,36 +78,108 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
   border-radius: 30px;
   bottom: 20px;
   opacity: 0.8;
+  display: flex;
+  overflow-y: hidden;
+  padding-bottom: 20px;
 }
 
 .store-container {
-  padding-left: 20px;
-  padding-right: 35px;
-  padding-top: 20px;
+  border-bottom: 1px solid #979797;
+  display: flex;
 }
 
-.store-container .store-address {
+.store-address {
   font-weight: normal;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 21px;
+  color: #514c4c;
+  margin-top: 30px;
 }
 
-.store-container .store-phone-number {
+.store-phone-number {
   font-weight: normal;
   font-size: 15px;
   line-height: 47px;
   color: #B5ADAD;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.store-container .line {
-  border: 1px solid #979797;
-  width: 100%;
+.store-address span {
+  display: block;
 }
 
-.circle-container {
+.store-number {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #454E53;
+  color: #B5ADAD;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.store-info-container {
+  flex-grow: 1;
+}
+
+.store-number-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.store-list {
+  flex: 1;
+  overflow-y: scroll;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.marker-info-container span {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.marker-open-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #979797;
+}
+
+.marker-icon i{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(57, 99, 122);
+  color: #B5ADAD;
+  font-size: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 5px;
+}
+
+.marker-icon {
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.marker {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+
+
+/*.circle-container {
   padding-left: 310px;
   opacity: 0.8;
 }
+
 
 .circle {
     width: 35px;
@@ -119,4 +191,4 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     color: white;
     position: absolute;
 }
-
+*/
